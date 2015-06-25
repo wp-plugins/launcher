@@ -18,7 +18,7 @@ Launcher is the perfect WordPress plugin for anyone launching a new product, web
 See Launcher Plugin in action on our demo pages:
 * <a href="http://demo.mythemeshop.com/wp-launcher/" target="_blank">Default Template</a>
 * <a href="http://demo.mythemeshop.com/wp-launcher-retro/" target="_blank">Retro Template</a>
-* <a href="http://demo.mythemeshop.com/point/wp-launcher-rocket/" target="_blank">Rocket Template</a>
+* <a href="http://demo.mythemeshop.com/wp-launcher-rocket/" target="_blank">Rocket Template</a>
 
 = Why Launcher from <a href="http://mythemeshop.com">MyThemeShop</a>: =
 * Lightweight Plugin
