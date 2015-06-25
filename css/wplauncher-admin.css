@@ -1,0 +1,180 @@
+#wpadminbar #wp-admin-bar-wplauncher-enabled-help, #wpadminbar #wp-admin-bar-wplauncher-disabled-help {
+    max-width: 200px;
+    height: auto;
+    pointer-events: none;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    background-color: #494949;
+}
+#wpadminbar #wp-admin-bar-wplauncher-enabled-help a, #wpadminbar #wp-admin-bar-wplauncher-disabled-help a, #wpadminbar #wp-admin-bar-wplauncher-enabled-help a strong, #wpadminbar #wp-admin-bar-wplauncher-disabled-help a strong {
+    white-space: normal;
+    height: auto;
+    font-size: 11px;
+    line-height: 14px;
+    color: #999;
+}
+#wpadminbar i.wplauncher-icon-rocket:before {
+    color: #a0a5aa;
+    color: rgba(240,245,250,.6);
+    font-size: 16px;
+}
+#wpadminbar li.hover .wplauncher-icon-rocket:before, #wpadminbar li:hover .wplauncher-icon-rocket:before, #wpadminbar li a:active .wplauncher-icon-rocket:before { color: #00b9eb }
+.wplauncher-error {
+    background: #fff;
+    border-left: 4px solid #fff;
+    border-color: #dd3d36;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 5px 15px 2px;
+    padding: 1px 12px;
+    margin: 5px 0 15px;
+}
+.wplauncher-templates {
+    clear: both;
+    overflow: hidden;
+}
+.wplauncher-single-template {
+    width: 220px;
+    float: left;
+    display: block;
+    margin: 10px 4px;
+    border: 1px solid #ccc;
+    padding: 4px 4px 0px;
+    min-height: 182px;
+    text-align: center;
+}
+.wplauncher-templates input { display: none }
+.wplauncher-templates > input:checked + label.wplauncher-single-template {
+    border: 1px solid #00b9eb;
+    outline: 1px solid #00b9eb;
+    background: #fff;
+}
+.wplauncher-nav-tab-wrapper .wplauncher-not-supported { opacity: 0.5 }
+/* datepicker */
+.ll-skin-melon { font-size: 90% }
+.ll-skin-melon .ui-widget {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    background: #2e3641;
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    width: 260px;
+}
+.ll-skin-melon .ui-datepicker { padding: 0 }
+.ll-skin-melon .ui-datepicker-header {
+    border: none;
+    background: transparent;
+    font-weight: normal;
+    font-size: 15px;
+}
+.ll-skin-melon .ui-datepicker-header .ui-state-hover {
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+.ll-skin-melon .ui-datepicker .ui-datepicker-title {
+    margin-top: .4em;
+    margin-bottom: .3em;
+    color: #e9f0f4;
+}
+.ll-skin-melon .ui-datepicker .ui-datepicker-prev-hover, .ll-skin-melon .ui-datepicker .ui-datepicker-next-hover, .ll-skin-melon .ui-datepicker .ui-datepicker-next, .ll-skin-melon .ui-datepicker .ui-datepicker-prev {
+    top: .9em;
+    border: none;
+}
+.ll-skin-melon .ui-datepicker .ui-datepicker-prev-hover { left: 2px }
+.ll-skin-melon .ui-datepicker .ui-datepicker-next-hover { right: 2px }
+.ll-skin-melon .ui-datepicker .ui-datepicker-next span, .ll-skin-melon .ui-datepicker .ui-datepicker-prev span {
+    background-image: url(../images/ui-icons.png);
+    background-position: -32px 0;
+    margin-top: 0;
+    top: 0;
+    font-weight: normal;
+}
+.ll-skin-melon .ui-datepicker .ui-datepicker-prev span { background-position: -96px 0 }
+.ll-skin-melon .ui-datepicker table { margin: 0 }
+.ll-skin-melon .ui-datepicker th {
+    padding: 1em 0;
+    color: #ccc;
+    font-size: 13px;
+    font-weight: normal;
+    border: none;
+    border-top: 1px solid #3a414d;
+}
+.ll-skin-melon .ui-datepicker td {
+    background: #0073aa;
+    border: none;
+    padding: 0;
+}
+.ll-skin-melon td .ui-state-default {
+    background: transparent;
+    border: none;
+    text-align: center;
+    padding: .5em;
+    margin: 0;
+    font-weight: normal;
+    color: #efefef;
+    font-size: 16px;
+}
+.ll-skin-melon .ui-state-disabled { opacity: 1 }
+.ll-skin-melon .ui-state-disabled .ui-state-default { color: #fba49e }
+.ll-skin-melon td .ui-state-active, .ll-skin-melon td .ui-state-hover { background: #2e3641 }
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px }
+.ui-timepicker-div dl { text-align: left }
+.ui-timepicker-div dl dt {
+    float: left;
+    clear: left;
+    padding: 0 0 0 5px;
+}
+.ui-timepicker-div dl dd { margin: 0 10px 10px 40% }
+.ui-timepicker-div td { font-size: 90% }
+.ui-tpicker-grid-label {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.ui-timepicker-div .ui_tpicker_unit_hide { display: none }
+.ui-timepicker-rtl { direction: rtl }
+.ui-timepicker-rtl dl {
+    text-align: right;
+    padding: 0 5px 0 0;
+}
+.ui-timepicker-rtl dl dt {
+    float: right;
+    clear: right;
+}
+.ui-timepicker-rtl dl dd { margin: 0 40% 10px 10px }
+/* Shortened version style */
+.ui-timepicker-div.ui-timepicker-oneLine { padding-right: 2px }
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_time, .ui-timepicker-div.ui-timepicker-oneLine dt { display: none }
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_time_label {
+    display: block;
+    padding-top: 2px;
+}
+.ui-timepicker-div.ui-timepicker-oneLine dl { text-align: right }
+.ui-timepicker-div.ui-timepicker-oneLine dl dd, .ui-timepicker-div.ui-timepicker-oneLine dl dd > div {
+    display: inline-block;
+    margin: 0;
+}
+.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_minute:before, .ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_second:before {
+    content: ':';
+    display: inline-block;
+}
+.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_millisec:before, .ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_microsec:before {
+    content: '.';
+    display: inline-block;
+}
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_unit_hide, .ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_unit_hide:before { display: none }
+.ui-timepicker-div { color: #e9f0f4 }
+.ui-timepicker-div .ui-slider {
+    width: 100%;
+    background-color: rgba(0, 115, 170, 0.35);
+}
+.ui-timepicker-div dl dt.ui_tpicker_hour_label, .ui-timepicker-div dl dt.ui_tpicker_minute_label { color: #ccc }
+button.ui-datepicker-current { opacity: 1 }
+input[type="text"] { min-width: 100% }
+.form-table #upload-btn { margin-top: 5px }
+textarea.large-text { height: 100px }
