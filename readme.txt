@@ -1,4 +1,4 @@
-=== Launcher ===
+=== Launcher: Coming Soon & Maintenance Mode ===
 Contributors: mythemeshop
 Creator's website link: http://mythemeshop.com/plugins/launcher/
 Tags: launcher, coming soon, maintenance, countdown, maintenance mode, under construction, pre-launch
