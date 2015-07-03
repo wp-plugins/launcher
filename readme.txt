@@ -4,7 +4,7 @@ Creator's website link: http://mythemeshop.com/plugins/launcher/
 Tags: launcher, coming soon, maintenance, countdown, maintenance mode, under construction, pre-launch
 Requires at least: 3.0.1
 Tested up to: 4.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.ht
 
@@ -50,7 +50,7 @@ This section describes how to install the plugin and get it working.
 1. Upload the `launcher` folder to the to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. You can see 'Launcher' option in WordPress Settings Tab.
-4. Configure the plugin using backend options and frontend editor.
+4. Configure the plugin using backend options and front-end editor.
 
 == Frequently Asked Questions ==
 
@@ -69,6 +69,10 @@ Make sure you have setup everything in Launcher Plugin's Options Panel (wp-admin
 7. Social Links
 
 == Changelog ==
+
+= 1.0.1 =
+* Fixed subscribe form issue including MailChimp
+* Fixed small CSS bug
 
 = 1.0 =
 * Official plugin release.
