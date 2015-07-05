@@ -1,0 +1,160 @@
+.wplauncher-editable-text input, .wplauncher-editable-text textarea {
+    min-width: 120px;
+    width: 100%!important;
+    height: 100%!important;
+    min-height: 14px;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+    text-align: center;
+}
+.wplauncher-editable-text i { margin: 0!important }
+#wp-admin-bar-wplauncher-edit-help { pointer-events: none }
+#wpadminbar #wp-admin-bar-wplauncher-edit-help a {
+    color: #ccc;
+    font-size: 11px;
+    padding-left: 2px;
+}
+.wplauncher-color-wrapper .wplauncher-color-inputs { display: none }
+.wplauncher-color-wrapper.inputs-visible .wplauncher-color-inputs { display: block }
+.wplauncher-color-wrapper.inputs-visible { outline: 1px dashed #ddd }
+.wplauncher-color-wrapper.inputs-visible .wplauncher-color-edit { display: none }
+.wp-picker-holder {
+    position: absolute;
+    z-index: 111;
+}
+.wplauncher-color-wrapper { display: inline-block }
+.wplauncher-hidden {
+    opacity: 0.3;
+    pointer-events: none;
+}
+.wplauncher-wrapper-hidden .wplauncher-color-edit { display: none !important }
+.wplauncher-hideable-wrapper, .wplauncher-color-wrapper, .wplauncher-bg-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.L_contact .wplauncher-hideable-wrapper {
+    width: auto;
+    display: block;
+}
+.wplauncher-color-edit, .wplauncher-hideable-toggle, .wplauncher-bg-edit {
+    position: absolute;
+    top: -22px;
+    left: 0;
+    display: none;
+    background: #fff;
+    background: rgba(73, 73, 73, 0.8);
+    padding: 4px;
+    font-size: 16px;
+    color: #fff;
+}
+.wplauncher-color-edit:hover, .wplauncher-hideable-toggle:hover, .wplauncher-bg-edit:hover { color: #00b9eb }
+.wplauncher-color-edit { left: 30px }
+.wplauncher-bg-edit { left: 60px }
+.wplauncher-hideable-wrapper:hover .wplauncher-hideable-toggle, /*.wplauncher-color-wrapper:hover .wplauncher-hideable-toggle, .wplauncher-hideable-wrapper:hover .wplauncher-color-edit, */
+.wplauncher-color-wrapper:hover .wplauncher-color-edit, .wplauncher-bg-wrapper:hover .wplauncher-bg-edit { display: block }
+.wplauncher-editable-image-wrapper {
+    display: inline-block;
+    line-height: 0;
+    position: relative;
+    cursor: pointer;
+    min-width: 75px;
+    min-height: 75px;
+}
+.wplauncher-wrapper-hidden .wplauncher-editable-image-wrapper { cursor: default }
+.wplauncher-editable-image-wrapper:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(73, 73, 73, 0.8);
+    pointer-events: none;
+    display: none;
+}
+.wplauncher-editable-image-wrapper:before {
+    content: "";
+    font-family: "fontello";
+    display: block;
+    position: absolute;
+    z-index: 11;
+    color: #fff;
+    top: 50%;
+    left: 46%;
+    font-size: 32px;
+    pointer-events: none;
+    display: none;
+}
+.wplauncher-editable-image-wrapper:hover:after, .wplauncher-editable-image-wrapper:hover:before { display: block }
+.wplauncher-wrapper-hidden .wplauncher-editable-image-wrapper:hover:after, .wplauncher-wrapper-hidden .wplauncher-editable-image-wrapper:hover:before { display: none }
+.screen-reader-text { display: none }
+.wplauncher-configure {
+    display: block;
+    background: #fff;
+    color: #444;
+    font-size: 14px;
+    line-height: 1.5;
+    border-left: 4px solid #fff;
+    border-color: #dd3d36;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 5px 15px 2px;
+    padding: 1px 12px;
+    margin: 5px 0 15px;
+    padding: 10px;
+}
+.wplauncher-configure a { color: #aaa }
+.wplauncher-section-editor-buttons {
+    width: 100%;
+    position: absolute;
+}
+.wplauncher-section-editor-buttons > a {
+    display: inline-block;
+    position: static;
+}
+.wplauncher-hidden-section .wplauncher-bg-edit { display: none }
+.wplauncher-bg-edit {
+    top: 0;
+    left: 0;
+    display: block;
+}
+.wplauncher-editable-save, .wplauncher-editable-cancel, .wplauncher-color-ok, .wplauncher-color-cancel {
+    background-color: #079E1A;
+    font-size: 16px;
+    border: none;
+    padding: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.wplauncher-editable-save, .wplauncher-color-ok {
+    color: #fff;
+    clear: left;
+}
+.wplauncher-editable-cancel, .wplauncher-color-cancel { background-color: #B52727;}
+.wplauncher-editable button:last-child { margin-right: 0 }
+.wplauncher-editable-save:hover, .wplauncher-editable-cancel:hover, .wplauncher-color-ok:hover, .wplauncher-color-cancel:hover { background-color: #fff }
+.wplauncher-clear { clear: both }
+.wplauncher-color-inputs .wp-picker-container input[type="text"].wp-color-picker {
+    box-sizing: border-box;
+    padding: 4px 0;
+    margin-bottom: 5px;
+    border: 1px solid;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+.wplauncher-color-inputs .wp-picker-container .button {
+    margin-left: 6px;
+    background-color: #000;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    color: #FFF;
+    padding: 4px 10px 5px;
+}
+.wp-picker-container { margin-right: 20px }
