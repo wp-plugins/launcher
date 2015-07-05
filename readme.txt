@@ -4,7 +4,7 @@ Creator's website link: http://mythemeshop.com/plugins/launcher/
 Tags: launcher, coming soon, maintenance, countdown, maintenance mode, under construction, pre-launch
 Requires at least: 3.0.1
 Tested up to: 4.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.ht
 
@@ -69,6 +69,9 @@ Make sure you have setup everything in Launcher Plugin's Options Panel (wp-admin
 7. Social Links
 
 == Changelog ==
+
+= 1.0.2 =
+* Fixed AWeber subscribe form issue
 
 = 1.0.1 =
 * Fixed subscribe form issue including MailChimp
