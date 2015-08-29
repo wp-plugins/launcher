@@ -3,7 +3,7 @@ Contributors: mythemeshop
 Creator's website link: http://mythemeshop.com/plugins/launcher/
 Tags: launcher, coming soon, maintenance, countdown, maintenance mode, under construction, pre-launch
 Requires at least: 3.0.1
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.ht
@@ -11,6 +11,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.ht
 Launcher is the perfect coming soon WordPress Plugin. Stun visitors with one of our beautiful, ready-made templates or create your own
 
 == Description ==
+
+[youtube http://www.youtube.com/watch?v=hdsmH2vDAwY]
 
 Launcher is the perfect WordPress plugin for anyone launching a new product, website or service. Stun visitors with one of our beautiful, ready-made templates or create your own. Build anticipation with timers, contact forms and other promotional features.
 
